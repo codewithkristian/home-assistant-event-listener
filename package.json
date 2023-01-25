@@ -1,0 +1,20 @@
+{
+  "name": "home-assistant-event-listener",
+  "version": "1.0.0",
+  "description": "Create a new WebSocket connection and listen for events from Home Assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "home-assistant",
+    "websocket",
+    "events"
+  ],
+  "author": "Kristian Freeman <kristian@kristianfreeman.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ws": "^8.12.0"
+  }
+}
